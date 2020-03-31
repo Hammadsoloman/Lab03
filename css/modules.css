@@ -1,0 +1,16 @@
+section {
+    width: 300px;
+    height: 300px;
+    border: saddlebrown solid;
+    float: left;
+    text-align: center;
+    margin: 5px;
+  } 
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    animation: fadeInLeft 3s;    
+  }
