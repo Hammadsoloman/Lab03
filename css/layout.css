@@ -7,7 +7,11 @@
     padding: 20px;
   }
 
-
+	header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: x-large;
+}
  .photo-template h2{
     font-size: 20px;
     margin: 10px;
@@ -20,6 +24,15 @@
     padding: 10px;
     margin:10px ;
   }
+  #horns-rendered {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photo-template {
+    display: none;
+}
 
  
 
@@ -29,14 +42,12 @@
     margin-bottom: 40px;
   }
 
-   main{
-    height:70vh ; 
-   }
+   
 
-  footer{
-    width: 100%;
-    clear: both;
-    text-align: center;
-    position: relative;
-  }
-  
+
+footer{
+  width: 100%;
+ 
+  display: flex;
+  align-items: flex-end;
+}
