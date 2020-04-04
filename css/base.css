@@ -7,12 +7,15 @@ body{
   flex-direction: column;
 
 }
+body section{
+  flex-basis: 30%;
+}
 
 main{
   margin: auto;
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -32,35 +35,5 @@ header h1{
         transform: translateY(0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
