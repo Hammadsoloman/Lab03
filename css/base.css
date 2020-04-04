@@ -7,9 +7,9 @@ body{
   flex-direction: column;
 
 }
-body section{
+body #horns-rendered section {
   flex-basis: 30%;
-}
+ }
 
 main{
   margin: auto;
